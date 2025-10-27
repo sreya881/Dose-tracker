@@ -1,0 +1,185 @@
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    background-color: rgb(51, 132, 254);
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.header_h2{
+    height: 30px;
+    width: 70px;
+    color: white;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.header_h2:hover{
+    color: rgb(207, 212, 236);
+}
+
+.header_logo{
+    height: 130px;
+    width: 130px;
+    margin-top: -15px;
+}
+
+.header_logo_name{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    background: linear-gradient(135deg, white, rgb(51, 132, 254));
+}
+
+
+.child{
+    border: 1px solid rgb(51, 132, 254);
+    width: 40%;
+    min-height: 50vh;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: .5px .5px 10px .5px rgb(51, 132, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 5vh;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.child h1{
+    color: rgb(51, 132, 254);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.child h2{
+    color: rgb(51, 132, 254);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1vh;
+    font-size: medium;
+}
+
+.child h3{
+    color: rgb(51, 132, 254);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.textbox1{
+    width: 50%;
+    height: 5vh;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 2PX solid navy;
+    background-color: rgba(51, 132, 254, 0.267);
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+}
+
+.textbox2{
+    width: 50%;
+    height: 5vh;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 2PX solid navy;
+    background-color: rgba(51, 132, 254, 0.267);
+    margin-bottom: 3vh;
+}
+
+form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.radio_div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label{
+    color: rgb(51, 132, 254);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+input::placeholder{
+    color: navy;
+}
+
+.checkbox_div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn_div{
+    display: flex;
+    gap: 4rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.add_btn {
+    background-color: rgb(76, 175, 80);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 20%;
+    margin-top: 5vh;
+    height: 7vh;
+}
+
+.add_btn:hover {
+    background-color: rgb(56, 142, 60);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+
+.cancel_btn{
+    background-color: rgba(255, 255, 255, 0.866);
+    color: rgb(76, 175, 80);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    border: 2px solid rgb(76, 175, 80);
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 20%;
+    height: 7vh;
+    margin-top: 5vh;
+}
+
+.cancel_btn:hover{
+    background-color: rgba(255, 255, 255, 0.75);
+}

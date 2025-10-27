@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    background-color: rgb(51, 132, 254);
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.header_h2{
+    height: 30px;
+    width: 70px;
+    color: white;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.header_h2:hover{
+    color: rgb(207, 212, 236);
+}
+
+.header_logo{
+    height: 130px;
+    width: 130px;
+    margin-top: -15px;
+}
+
+.header_logo_name{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 100px);
+    background: linear-gradient(135deg, white, rgb(51, 132, 254));
+}
+
+
+.child{
+    border: 1px solid rgb(51, 132, 254);
+    width: 40%;
+    height: auto;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: .5px .5px 10px .5px rgb(51, 132, 254);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.child h2{
+    color: rgb(51, 132, 254);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+.child h2{
+    color: rgb(51, 132, 254);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+.child h3{
+    color: rgb(51, 132, 254);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -2vh;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.child input{
+    width: 45%;
+    height: 5vh;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 2PX solid navy;
+    background-color: rgba(51, 132, 254, 0.267);
+    margin-bottom: 3vh;
+}
+
+.child input:hover{
+    box-shadow: .5px .5px 7px .5px rgb(51, 132, 254);
+}
+
+input::placeholder{
+    color: navy;
+}
+
+.signin_btn{
+    background-color: rgb(51, 132, 254);
+    color: white;
+    width: 25%;
+    height: 6vh;
+    border-radius: 10px;
+    border: 1px solid rgb(33, 122, 254);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.signin_btn:hover{
+    background-color: rgb(13, 102, 235);
+}

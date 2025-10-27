@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    background-color: rgb(51, 132, 254);
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.header_h2{
+    height: 30px;
+    width: 70px;
+    color: white;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.header_h2:hover{
+    color: rgb(207, 212, 236);
+}
+
+.header_logo{
+    height: 130px;
+    width: 130px;
+    margin-top: -15px;
+}
+
+.header_logo_name{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    background: linear-gradient(135deg, white, rgb(51, 132, 254));
+}
+
+
+.child{
+    border: 1px solid rgb(51, 132, 254);
+    width: 95%;
+    min-height: 50vh;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: .5px .5px 10px .5px rgb(51, 132, 254);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-top: 5vh;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+table{
+    width: 98%;
+    border: 3px solid navy;
+    border-radius: 10px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+th{
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    text-align: center;
+    vertical-align: middle;
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+td{
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(51, 132, 254);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th,td{
+    border-bottom: 2px solid navy;
+}
+
+.medicine_btn {
+    background-color: rgb(76, 175, 80);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 15%;
+    margin-top: 5vh;
+}
+
+.medicine_btn:hover {
+    background-color: rgb(56, 142, 60);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
