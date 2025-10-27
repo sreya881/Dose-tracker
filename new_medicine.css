@@ -48,7 +48,7 @@ header{
     align-items: center; 
     width: 100%;
     min-height: calc(100vh - 100px);
-    background: linear-gradient(135deg, white, rgb(51, 132, 254));
+    background: linear-gradient(135deg, white, rgb(51, 254, 132));
 }
 
 
