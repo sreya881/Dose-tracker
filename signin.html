@@ -18,12 +18,13 @@
           <h2>Sign in</h2>
           <h3>Wellcome</h3>
           <h3>Please fill the following details</h3>
-          <input type="text" placeholder="Full Name">
+          <form action="http://localhost:3000/register" method="POST" style="display: flex; flex-direction: column;align-items: stretch; gap: 15px; ">
+          <input type="text" name="name" placeholder="Full Name" required>
           <!-- <input type="text" placeholder="Username"> -->
-          <input type="number" placeholder="Age">
-          <input type="email" placeholder="Email">
-          <input type="password" placeholder="Password">
-          <button class="signin_btn">Sign in</button>
+          <input type="number" placeholder="Age" required>
+          <input type="email" placeholder="Email" required>
+          <input type="password" placeholder="Password" required>
+          <button class="signin_btn" href="medicine.html" type="submit">Sign in</button>
         </div>
     </div>
 </body>
